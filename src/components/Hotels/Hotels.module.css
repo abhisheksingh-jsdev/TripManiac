@@ -1,0 +1,70 @@
+.container{
+    min-width: 300px;
+    /* box-shadow: 0px 0px 8px 0px #b2abab; */
+    border-radius: 8px 8px 8px 8px;
+}
+
+.hotelImage{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.price{
+    font-size:18px;
+    font-weight:700;
+    color: #8527f9;;
+}
+
+.price span{
+    font-size: 14px;
+    color: rgb(136, 133, 133);
+    font-weight: 500;
+}
+
+.priceDiv div{
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px #b2abab;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.largerText{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.smallerText{    
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(136, 133, 133);
+}
+
+.country{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(136, 133, 133);
+}
+
+.footer{
+    border-top: 3px solid whitesmoke;
+}
+
+.footerComponents{
+    display: flex;
+}
+
+.footerComponents p{
+    font-size:14px;
+    color: rgb(136, 133, 133);
+}

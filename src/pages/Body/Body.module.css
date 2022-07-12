@@ -1,0 +1,61 @@
+.headText {
+  font-size: 36px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+
+.searchContainer {
+  /* border: 2px solid whitesmoke; */
+  box-shadow: 0px 0px 8px 0px #b2abab;
+  border-radius:7px;
+  -webkit-border-radius:7px;
+  -moz-border-radius:7px;
+  -ms-border-radius:7px;
+  -o-border-radius:7px;
+}
+
+.searchDiv {
+  border-left: 2px solid whitesmoke;
+}
+.searchFirstDiv {
+  border: none;
+}
+
+.smallerText {
+  font-size: 14px;
+  color: rgb(136, 133, 133);
+  font-weight: 500;
+}
+
+.largerText{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date {
+  position: absolute;
+  top: 60px;
+  z-index: 2;
+  left: 0px;
+}
+
+.select {
+  background-color: red !important;
+}
+
+.searchBtnDiv{
+    padding: 8px 36px;
+    background-color: #682ad4;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.searchBtn {
+}
